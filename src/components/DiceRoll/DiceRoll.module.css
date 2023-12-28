@@ -1,0 +1,49 @@
+.dice_roll_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+.dice_roll_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice_roll_container img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.show_rules {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    background-color: teal;
+    padding: 10px;
+    align-items: center;
+}
+
+.show_rules h2{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+.show_rules li {
+    padding: 0;
+    line-height: 30px;
+    list-style-type: number;
+    color: white;
+    font-weight: 600;
+}

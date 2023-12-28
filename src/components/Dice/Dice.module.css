@@ -1,0 +1,19 @@
+.dice {
+    width: 64px;
+    height: 64px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.dice_alternate {
+    width: 64px;
+    height: 64px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: 900;
+    border-radius: 5px;
+}
